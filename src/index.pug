@@ -1,0 +1,103 @@
+doctype html
+html(lang="pl")
+    head
+        title MiM - Transport dedykowany
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="Oferujemy usługi transportowe. Zadzwoń, napisz, sprawdź nas.")
+        meta(name="author" content="Firma transportowa MiM")
+        
+        link(href="css/bootstrap/bootstrap-theme.css" rel="stylesheet")
+    body
+        .container-fluid
+
+            nav.navbar.navbar-light.w-100
+                a.navbar-brand(href="index.html") MiM 
+                .d-flex.align-items-center
+                    button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navigations-07", aria-controls="navigations-07", aria-expanded="false", aria-label="Toggle navigation")
+                        span.navbar-toggler-icon
+
+                .collapse.navbar-collapse#navigations-07
+                    ul.navbar-nav.mr-auto
+                        li.nav-item.active
+                            a.nav-link(href="index.html") Home #[span.sr-only (current)]
+                        li.nav-item
+                            a.nav-link(href="vehicles.html") Pojazdy do dyspozycji
+                        li.nav-item
+                            a.nav-link(href="contact.html") Kontakt
+
+
+            section.py-5
+                .container.text-center
+                    strong Nowa jakość usług transportowych
+                    h1.display-4.my-3 Zapewnimy Ci transport, który będziesz mógł polecać.
+
+
+            section.py-5
+                .container
+                    .row
+                        .col-md-6.my-auto
+                            h2.mb-4 Ekspresowy i w pełni bezpieczny
+                            p.pr-md-5 Obejmujemy transport krajowy, jak i międzynarodowy. Specjalizujemy się w ekspresowych i bezpiecznych dostawach nowymi samochodami, posiadającymi pełne wyposażenie.
+                            .row.mt-4
+                                .col-lg-6
+                                    h5 Czas jest ważny
+                                    p Priorytetem jest dostarczenie Twojego towaru. W razie problemów zawsze pozostajesz w kontakcie ze spedytorem lub kierowcą.
+                                .col-lg-6
+                                    h5 Bezpieczeństwo
+                                    p Ładunek zabezpieczony jest pasami transportowymi. Koce, maty i narożniki chronią Twój towar przed uszkodzeniem.
+                        .col-md-6.mt-4.mt-md-0
+                            img.img-fluid(src="imgs/transport.jpg", alt="Najlepsza firma transportowa")
+
+            section.py-5
+                .container.text-center
+                    h2.mb-4 Jak skorzystać z naszych usług?
+                    p.lead.mb-5 Działamy nieprzerwanie 7 dni w tygodniu, 24 godziny na dobę. Dobrze wiemy, w jaki sposób realizować zlecenia sprawnie i pod pełną kontrolą.
+                    .row.align-items-center.text-md-left.mb-5
+                        .col-md-6.order-1.order-md-0
+                            img.img-fluid(src="imgs/order.jpg", alt="Zamow transport")
+                        .col-md-6.mb-4.mb-md-0
+                            span.display-3.mb-2 01
+                            h3.mb-4 Zgłoś ładunek
+                            p Opisz co jest do przewiezienia, zaznacz powtarzalność kursu, przedstaw daty i godziny załadunku, jak i rozładunku. Bardzo szybko otrzymasz odpowiedź z najlepszymi propozycjami współpracy. Zgłoszenie wyślij na nasz adres: office@mim-transport.com
+                    .row.align-items-center.text-md-right.mb-5
+                        .col-md-6.order-1.order-md-0.mb-4.mb-md-0
+                            span.display-3.mb-2 02
+                            h3.mb-4 Stwórz dokument zlecenia 
+                            p Zleceniem może być dokument w formie PDF, jak i wiadomość e-mail. Zlecenie musi zawierać: datę, nazwę Twojej firmy z pełnymi danymi, daty załadunku oraz rozładunku, ustaloną kwotę wykonania netto oraz zgodę na wykorzystanie Twoich danych na potrzeby wykonania transportu (RODO). Zlecenie wyślij na nasz adres: zlecenia@mim-transport.com
+                        .col-md-6.order-1.order-md-2
+                            img.img-fluid(src="imgs/document.jpg", alt="Prywatny transport dokument")
+                    .row.align-items-center.text-md-left.mb-5
+                        .col-md-6.order-1.order-md-0
+                            img.img-fluid(src="imgs/onroad.jpg", alt="Transport w drodze")
+                        .col-md-6.mb-4.mb-md-0
+                            span.display-3.mb-2 03
+                            h3.mb-4 Twój towar jest w drodze!
+                            p Mając rękę na pulsie wysyłamy jednego z naszych kierowców po odbiór Twojej przesyłki zgodnie ze zleceniem. W każdej chwili możesz się z nami skontaktować!
+
+            footer.py-5
+                .container
+                    .text-center
+
+                        img(src="imgs/logo.png", alt="logo", height="40")
+                        h2.my-3
+                            a(href="contact.html") Skontaktuj się
+                        p.lead.col-sm-10.mx-auto.m-4 Naszym celem jest transport Twoich dóbr z punktu A do punktu B jak najszybciej, w pełni bezpiecznie oraz zgodnie z Twoimi zaleceniami. Szanujemy Twój czas, przekonaj się: +48 532 345 302
+                        h5.text-muted office@mim-transport.com
+                        
+                        ul.nav.justify-content-center.m-4
+                            li.nav-item
+                                a.nav-link(href="index.html") Home
+                            li.nav-item
+                                a.nav-link(href="vehicles.html") Pojazdy do dyspozycji
+                            li.nav-item
+                                a.nav-link(href="contact.html") Kontakt
+                            li.nav-item
+                            a.nav-link(href="OfertaMiM.pdf") Pobierz ofertę .pdf
+                        h6.text-muted Nie wykorzystujemy ciasteczek. Nie gromadzimy danych.
+                        h6.text-muted Realizacja – contact@michalsalek.pl
+                        h6.text-muted Grafika – unsplash.com
+                        
+        script(src="js/jquery/jquery.min.js")
+        script(src="js/popper/popper.min.js")
+        script(src="js/bootstrap/bootstrap.min.js")

@@ -1,0 +1,84 @@
+doctype html
+html(lang="pl")
+    head
+        title MiM - Pojazdy
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        
+        link(href="css/bootstrap/bootstrap-theme.css" rel="stylesheet")
+    body
+        .container-fluid
+
+            nav.navbar.navbar-light.w-100
+                a.navbar-brand(href="index.html") MiM
+                .d-flex.align-items-center
+                    button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navigations-07", aria-controls="navigations-07", aria-expanded="false", aria-label="Toggle navigation")
+                        span.navbar-toggler-icon
+
+                .collapse.navbar-collapse#navigations-07
+                    ul.navbar-nav.mr-auto
+                        li.nav-item
+                            a.nav-link(href="index.html") Home
+                        li.nav-item.active
+                            a.nav-link(href="vehicles.html") Pojazdy do dyspozycji #[span.sr-only (current)]
+                        li.nav-item
+                            a.nav-link(href="contact.html") Kontakt
+
+
+            section.py-5
+                .container
+                    .row
+                        .col-md-6.my-auto
+                            h2.mb-4 Flota pojazdów Renault
+                            p.pr-md-5 Posiadamy samochody niemające więcej niż 3 lata, regularnie serwisowane u autoryzowanego dilera. Przeważająca większość floty to linia Master.
+                            .row.mt-4
+                                .col-lg-6
+                                    h5 Nasze pojazdy
+                                    p Są bogato wyposażone i nie brak im najnowszych systemów wspomagających kierowców w codziennych sytuacjach na drodze.
+                                .col-lg-6
+                                    h5 Nasi kierowcy
+                                    p Posiadają kamizelki odblaskowe, kaski, buty BHP, duże gaśnice oraz pełny zakres przedmiotów niezbędnych do wykonywania pracy.
+                        .col-md-6.mt-4.mt-md-0
+                            img.img-fluid(src="imgs/renault.jpg", alt="Flota pojazdow")
+
+            section.py-5
+                .container
+                    .row
+                        .col-md-6.mt-4.mt-md-0.order-2.order-md-1
+                            img.img-fluid(src="imgs/master.jpg", alt="Master plandeka transport")
+                        .col-md-6.my-auto.pl-md-5.order-1.order-md-2
+                            h2.mb-4 Twój towar
+                            p Jest zabezpieczony szerokimi pasami transportowymi posiadającymi ważne atesty. W punktach ich oparcia zakładane są narożniki, a między podłogę, a palety mocowane są maty antypoślizgowe. Oprócz tego samochody posiadają koce i tkaniny, które można wykorzystać do pełnego zabezpieczenia Twoich transportowanych dóbr.
+                            h3.lead Wymiary ładowne: 420cm x 220cm x 230cm
+                            h4.lead 8 Europalet
+                            h5.lead Obsługujemy Polskę, jak i Europę
+                            h6.lead Ładowność: do 1500 kgs
+
+            footer.py-5
+                .container
+                    .text-center
+
+                        img(src="imgs/logo.png", alt="logo", height="40")
+                        h2.my-3
+                            a(href="contact.html") Skontaktuj się
+                        p.lead.col-sm-10.mx-auto.m-4 Naszym celem jest transport Twoich dóbr z punktu A do punktu B jak najszybciej, w pełni bezpiecznie oraz zgodnie z Twoimi zaleceniami. Szanujemy Twój czas, przekonaj się: +48 532 345 302
+                        h5.text-muted office@mim-transport.com
+                        
+                        ul.nav.justify-content-center.m-4
+                            li.nav-item
+                                a.nav-link(href="index.html") Home
+                            li.nav-item
+                                a.nav-link(href="vehicles.html") Pojazdy do dyspozycji
+                            li.nav-item
+                                a.nav-link(href="contact.html") Kontakt
+                            li.nav-item
+                            a.nav-link(href="OfertaMiM.pdf") Pobierz ofertę .pdf
+                        h6.text-muted Nie wykorzystujemy ciasteczek. Nie gromadzimy danych.
+                        h6.text-muted Realizacja – contact@michalsalek.pl
+                        h6.text-muted Grafika – unsplash.com
+
+        script(src="js/jquery/jquery.min.js")
+        script(src="js/popper/popper.min.js")
+        script(src="js/bootstrap/bootstrap.min.js")

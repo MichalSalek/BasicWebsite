@@ -1,0 +1,76 @@
+doctype html
+html(lang="pl")
+    head
+        title MiM - Kontakt
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        
+        link(href="css/bootstrap/bootstrap-theme.css" rel="stylesheet")
+    body
+        .container-fluid
+
+            nav.navbar.navbar-light.w-100
+                a.navbar-brand(href="index.html") MiM
+                .d-flex.align-items-center
+                    button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navigations-07", aria-controls="navigations-07", aria-expanded="false", aria-label="Toggle navigation")
+                        span.navbar-toggler-icon
+
+                .collapse.navbar-collapse#navigations-07
+                    ul.navbar-nav.mr-auto
+                        li.nav-item
+                            a.nav-link(href="index.html") Home
+                        li.nav-item
+                            a.nav-link(href="vehicles.html") Pojazdy do dyspozycji
+                        li.nav-item.active
+                            a.nav-link(href="contact.html") Kontakt #[span.sr-only (current)]
+
+
+            section.py-5
+                h2.mb-5.text-center Wciąż szukasz solidnego partnera?
+                .container
+                    .row
+                        .col-md-6.mb-3.mb-md-0
+                            img.img-fluid(src="imgs/contact.jpg", alt="Zamow usługę transportową")
+                        .col-md-6
+                            h5 Uzyskaj interesujące Cię informacje
+                            p.mb-5.text-secondary Wybierz najbardziej dogodną drogę kontaktu i opisz, jakiego typu usługą transportową jesteś zainteresowany.
+                            .d-flex
+                                img.mb-3.mr-3(src="placeholder/icons/map-marker.svg", alt="Nasza lokalizacja")
+                                p.text-secondary Siedziba – 32-050 Skawina. Baza startowa – promień 5 kilometrów.
+                            .d-flex
+                                img.mb-3.mr-3(src="placeholder/icons/phone.svg", alt="Telefon")
+                                p.text-body 
+                                    strong +48 532 345 302
+                            .d-flex
+                                img.mb-3.mr-3(src="placeholder/icons/envelope.svg", alt="Adres email")
+                                p.text-body 
+                                    strong office@mim-transport.com
+
+            footer.py-5
+                .container
+                    .text-center
+
+                        img(src="imgs/logo.png", alt="logo", height="40")
+                        h2.my-3
+                            a(href="contact.html") Skontaktuj się
+                        p.lead.col-sm-10.mx-auto.m-4 Naszym celem jest transport Twoich dóbr z punktu A do punktu B jak najszybciej, w pełni bezpiecznie oraz zgodnie z Twoimi zaleceniami. Szanujemy Twój czas, przekonaj się: +48 532 345 302
+                        h5.text-muted office@mim-transport.com
+                        
+                        ul.nav.justify-content-center.m-4
+                            li.nav-item
+                                a.nav-link(href="index.html") Home
+                            li.nav-item
+                                a.nav-link(href="vehicles.html") Pojazdy do dyspozycji
+                            li.nav-item
+                                a.nav-link(href="contact.html") Kontakt
+                            li.nav-item
+                            a.nav-link(href="OfertaMiM.pdf") Pobierz ofertę .pdf
+                        h6.text-muted Nie wykorzystujemy ciasteczek. Nie gromadzimy danych.
+                        h6.text-muted Realizacja – contact@michalsalek.pl
+                        h6.text-muted Grafika – unsplash.com
+
+        script(src="js/jquery/jquery.min.js")
+        script(src="js/popper/popper.min.js")
+        script(src="js/bootstrap/bootstrap.min.js")
